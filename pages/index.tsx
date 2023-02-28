@@ -55,6 +55,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               <span className="flex max-h-full max-w-full items-center justify-center">
                 {/* <Bridge /> */}
                 <Image
+                alt="Cover photo of cloudie"
             src="/cover.jpg"
             layout="fill"
             objectFit="cover"
